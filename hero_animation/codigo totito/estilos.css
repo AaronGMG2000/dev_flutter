@@ -1,0 +1,28 @@
+.casilla {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.casilla:hover {
+    background-color: #eee;
+}
+
+#tablero {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
